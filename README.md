@@ -25,3 +25,21 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## or create a new repository on the command line
+```
+echo "# mapas-de-angular" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/baruc99/mapas-de-angular.git
+git push -u origin main
+```
+## …or push an existing repository from the command line
+```
+git remote add origin https://github.com/baruc99/mapas-de-angular.git
+git branch -M main
+git push -u origin main
+```
